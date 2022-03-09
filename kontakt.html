@@ -1,0 +1,95 @@
+<!-- HTML - Język znaczników -->
+<!-- CSS - Stylowani strony -->
+<!-- JS - Język programowania (interaktwność) -->
+
+<!--ZNACZNIKI SEMANTYCZNE-->
+<!-- Znaczniki semantyczne to opisane divy, które ułatwiają nawigacje na stronie -->
+<!-- <article> - artykół -->
+<!-- <section> - sekcja, morze zawierac kilka artykułów -->
+<!-- <nav> - nawigacja na stronie -->
+<!-- <aside> - nie związane z treścią strony -->
+<!-- <footer> - stopka -->
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Koty - rasy nie z minesoty</title>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="kot, rasy, kotów" />
+    <meta
+      name="description"
+      content="Poznaj rasy kotów oraz ich tajemnice. Koty nie są takie same. każdy z nich ma swoje tajemnice.  Dlatego musisz
+        dowiedzieć się która kulka puchu jest twoją ulubioną."
+    />
+    <meta name="author" content="Kamil Wojtek" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="top">
+      <!-- Kod wstawiany przez JS (inject,js) -->
+    </header>
+    <!-- Nagłówek strony - <header><header/> -->
+    <main>
+      <article>
+        <h1>KONTAKT</h1>
+        <form action="form.html" method="post">
+          <fieldset>
+            <label>Imie<input type="text" /></label><br />
+            <label>Nazwisko<input type="text" /></label><br />
+            <label
+              >Data urodzenia<input
+                type="date"
+                required=""
+                max="01-01-2004" /></label
+            ><br />
+            <label
+              >Numer telefonu<input
+                type="tel"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+            /></label>
+          </fieldset>
+      
+          <fieldset>
+            <legend>Ulubiony przedmiot</legend>
+            <label><input type="radio" name="przedmiot" value="Matematyka" /> Matematyka</label> <br>
+            <label></label><input type="radio" name="przedmiot" value="Polski" /> Polski</label> <br>
+            <label><input type="radio" name="przedmiot" value="W-F" /> W-F</label> <br>
+            <label><input type="radio" name="przedmiot" value="Religia" /> Religia</label> <br>
+            <label><input
+              type="radio"
+              name="przedmiot"
+              value="Projektowanie Aplikacji Internetowych"
+            /> Projektowanie Aplikacji Internetowych</label> <br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Zgody</legend>
+            <label
+              ><input type="checkbox" required="" />Zgoda na przetwarzanie
+              danych</label
+            ><br />
+            <label><input type="checkbox" />Chce otrzymywać newsletter</label
+            ><br />
+            <label
+              ><input type="checkbox" />Akceptuję politykę bezpieczeństwa</label
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>zainteresowania</legend>
+            <textarea rows="10" cols="30"></textarea>
+          </fieldset>
+
+          <input type="submit" value="Zatwierdź" /> <input type="reset" value="resdetuj" />
+        </form>
+      </article>
+    </main>
+
+    <footer></footer>
+
+    <script src="inject.js"></script>
+  </body>
+</html>

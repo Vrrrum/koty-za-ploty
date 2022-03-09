@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --font-color: #011126;
+  --menu-color: #42807a;
+  --article-color: #51718c;
+  --main-color: #04b3a4;
+}
+
+body {
+  background-image: url("img/background.jpg"); /* Zdjęcie kotka */
+  font-family: "Lato", sans-serif;
+  color: var(--font-color);
+}
+
+h1 {
+  text-align: center; /* Centrowanie nagÅ‚Ã³wka */
+  font-size: 60px;
+}
+h2 {
+  text-align: center; /* Centrowanie nagÅ‚Ã³wka */
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+
+main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  background-color: var(--main-color);
+}
+p {
+  font-size: 25px;
+}
+.kotImg {
+  max-width: 900px;
+  width: 100%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+article {
+  padding: 1rem;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+
+  background-color: var(--article-color);
+  border: 5px solid #000000;
+  border-radius: 10px;
+}
+footer {
+  background-color: var(--menu-color);
+  max-width: 1200px;
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+}
+.return {
+  text-align: left;
+}
+
+#baner {
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+/* TABELE */
+table,
+tr,
+td,
+th {
+  border: 2px solid black;
+}
+td {
+  padding: 5px;
+}
+
+/* LISTY */
+ul {
+  list-style-image: url("img/list2.png");
+}
+
+/* MENU */
+nav {
+  background-color: var(--menu-color);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 25px;
+}
+#menu {
+  list-style-type: none;
+  margin: auto 20px;
+  padding: 0;
+}
+.menuItem {
+  display: inline;
+}
+
+.menuItem a {
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.menuItem a:hover {
+  background-color: antiquewhite;
+}
+
+.active {
+  background-color: gray;
+}
+
+.siteImg {
+  width: 256px;
+}
+
+.articleHeader {
+  text-align: center;
+}
+
+.next {
+  height: 1rem;
+  padding: 10px;
+}
+
+.numbers {
+  margin-left: 44%;
+}
+
+#article0 {
+  display: block;
+}
+
+#article1,
+#article2,
+#article3 {
+  display: none;
+}
+
+.icon-right-open {
+  float: right;
+}
+
+/* lIVER SITE STYLE */
+.liver-figure {
+  float: left;
+}
+
+.liver-figure img {
+  width: 300px;
+}
+
+.liver-quote {
+  font-size: 25px;
+}
+
+.liver-list {
+  font-size: 25px;
+  list-style: "- ";
+}

@@ -1,0 +1,136 @@
+<!-- HTML - Język znaczników -->
+<!-- CSS - Stylowani strony -->
+<!-- JS - Język programowania (interaktwność) -->
+
+<!--ZNACZNIKI SEMANTYCZNE-->
+<!-- Znaczniki semantyczne to opisane divy, które ułatwiają nawigacje na stronie -->
+<!-- <article> - artykół -->
+<!-- <section> - sekcja, morze zawierac kilka artykułów -->
+<!-- <nav> - nawigacja na stronie -->
+<!-- <aside> - nie związane z treścią strony -->
+<!-- <footer> - stopka -->
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Koty - rasy nie z minesoty</title>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="kot, rasy, kotów" />
+    <meta
+      name="description"
+      content="Poznaj rasy kotów oraz ich tajemnice. Koty nie są takie same. każdy z nich ma swoje tajemnice.  Dlatego musisz
+      dowiedzieć się która kulka puchu jest twoją ulubioną."
+    />
+    <meta name="author" content="Kamil Wojtek" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="top">
+      <!-- Kod wstawiany przez JS (inject,js) -->
+    </header>
+    <!-- Nagłówek strony - <header><header/> -->
+    <main>
+      <h2>Kotki są różne, niektóre krótkie, inne podłóżne</h2>
+      <blockquote cite="https://verdum.pl/cytaty-o-zyciu/">
+        Jeden dzień na raz – to wystarczy. Nie oglądaj się za siebie i nie martw
+        się przeszłością, ponieważ jej już nie ma. I nie niepokój się o
+        przyszłość, bo ta jeszcze nie nadeszła. Żyj teraźniejszością i rób to
+        tak pięknie, by była warta wspominania. ~ Ida Scott Taylor
+      </blockquote>
+      <article>
+        <h3>Kot sijamski</h3>
+
+        <!-- Nagówek : <h1></h1>, ..., <h6></h6>  -->
+
+        <img
+          id="sijam"
+          src="img/syjamski.jpg"
+          alt="kot syjamski"
+          class="kotImg"
+        />
+        <p>
+          Kot Syjamski, to iście charakterne i majestatyczne stworzenie. Nie da
+          się ukryć, że pod królewską wręcz aparycją. Kryję się dusza
+          prawdziwego urwisa. Są to bardzo energiczne koty uwielbiające zabawę i
+          mające niemal nieskończone zasoby na figle i kocie psoty, do których
+          chętnie zaprasza swojego człowieka, bo jak dobrze wiemy "Urwis kocha
+          najbardziej". Przywiązuje się on do swojego "Właściciela", jednak nie
+          daje zapomnieć o tym, że to on pociąga za sznurki. Często będzie wręcz
+          zmuszał swoimi wyrafinowanymi technikami manipulacyjnymi do zabawy.
+          Warunkiem przyjaźni z tym cudownym kotem, jest poświęcenie dużej
+          ilości czasu, na igraszki z pupilem. Jednak on odwdzięczy się nam
+          miłością i przywiązaniem.
+        </p>
+
+        <!-- !!! Paragraf : <p>...</p> - jest elementrm blokowym. Elementy blokowe (bez css) układają
+              się jeden pod drugim !!! -->
+      </article>
+      <!-- Article - artykół, wyciągnięty ze strony nadal ma logiczną zawartość -->
+      <article>
+        <h3>Maine coon</h3>
+
+        <img id="coon" src="img/coon.jpg" alt="maine coon" class="kotImg" />
+
+        <p>
+          Maine coon to taka, ogromna kulka puchu do przytualnia, wystarczy na
+          niego spojżeć, i już ma się go ochotę wyściskać. Jest to kot który
+          często będzie manifestował swoją władzę w stadzie, dlateg warto
+          tresować go już od najmłodszego. Wymaga on od nas poświęcenia dużej
+          ilości czasu na wspólne zabawy. Nie jest on jednak nachalny posiada
+          raczej stonowany i dostojny charakter, więc nie będzie się domagał
+          pieszczot. Mimo że jest on kotem spokojnym i nieagresywnym, nie jest
+          on dobrym pomysłem na kotka dla małego dziecka. Taki arystokrata jak
+          mein coon, nie pozwoli sobie na ciągnięcie za ogon czy inne niezbyt
+          przyjemne "pieszczoty".
+        </p>
+      </article>
+      <article>
+        <h3>Kot brytyjski</h3>
+
+        <img
+          id="coon"
+          src="img/brytyjski.jpg"
+          alt="maine coon"
+          class="kotImg"
+        />
+
+        <p>
+          Ta (zazwyczaj) szara kulka puchu, posiada bardzo silny charakter. Nie
+          jest on natrętny - zachowuje wręcz pewien dystans i powściągliwość w
+          kontaktach z domownikami. Potrzebuje naszej bliskości, jenakże nie
+          należy z nią przesadzać. Wśród domowników wybiera jedną osobę którą
+          będzie dażył szczególną miłością. Przede wszystkim jest to kot
+          przyjacielski który jest świetnym kompanem i towarzyszem dla dzieci. Z
+          jego pyszczka bije równierz odwaga która również charakteryzuje tego
+          kota.
+        </p>
+      </article>
+      <article>
+        <h3>Dachowiec</h3>
+
+        <img
+          id="dachowiec"
+          src="img/dachowiec.jpg"
+          alt="Dachowiec"
+          class="kotImg"
+        />
+
+        <p>
+          Dachowcu mój szarobury, dachowcu mój czarnolicy, Tyś szybki jak
+          błyskawica tyś niewidzialny niczym duch. Dachowcu bądź pozdrowiony i
+          twe zacne kocie ruchy, Piszę o tobie poezję, wiersze o tobie klecę, To
+          zacna kocia poezja, która serce buduje człowiecze, Dachowiec to
+          zwierze piękne symbol wolności i hart ducha Dachowiec to mój symbol
+          piękna, to kocie ruchy!
+        </p>
+      </article>
+    </main>
+
+    <footer></footer>
+
+    <script src="inject.js"></script>
+  </body>
+</html>

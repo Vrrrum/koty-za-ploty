@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <title>Koty - rasy nie z minesoty</title>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="kot, rasy, kotów" />
+    <meta
+      name="description"
+      content=""
+    />
+    <meta name="author" content="Kamil Wojtek" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="top">
+        <!-- Kod wstawiany przez JS (inject.js) -->
+    </header>
+    <!-- Nagłówek strony - <header><header/> -->
+    <main>
+        <form action="formTarget.html" method="POST">
+            <fieldset>
+                <legend>Dane osobowe</legend>
+                <label>Podaj swoje imię <input type="text" autofocus="autofocus" placeholder="imię" autocomplete="additional-name"></label> <br>
+                <label>Podaj swoje nazwisko <input type="text"></label> <br>
+                <label>Powiedz ile masz lat <input  type="number" min="18" max="123" step="10"></label> <br>
+                <label>Podaj hasło <input type="password"></label> <br>
+                <label>Podaj datę urodzenia <input type="date"></label> <br>
+                <label>Podaj czas urodzenia <input type="time"></label> <br>
+                <label>Podaj dzień tygodnia urodzenia <input type="week"></label> <br>
+                <label>Podaj mail: <input type="email" required></label> <br>
+                <label>Wyszukaj <input type="search"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Napisz o swoich zaiteresowaniach</legend>
+                <textarea rows="20"cols="30"></textarea> <br>
+                <label>Wyslij plik <input type="file" multiple></label>
+            </fieldset>
+                <input type="submit" value="Zatwierdź"> <input type="reset" value="resetuj">
+        </form>
+    </main>
+  
+    <footer></footer>
+  
+    <script src="inject.js"></script>
+</body>
+</html>
